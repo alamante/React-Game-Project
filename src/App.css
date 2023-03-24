@@ -3,9 +3,11 @@
 :root {
   --bg: #F0BAE2;
   --primary: #F5B606;
+  --hover: #e0a604;
   --tertiary: #250349;
   --clickedBtn: #AD914B;
   --modelBg: #F4F4F4;
+  --border: 2px solid #250349;
 }
 .logo-btn {
   width: 140px;
@@ -24,14 +26,63 @@
 
 body {
   font-family: 'VT323',
-      monospace;
+      monospace!important;
   background-color: var(--bg)!important;
 }
 .highscores{
   font-size: 30px !important;
   font-family: 'VT323', monospace;
-  color: var(--modelBg)!important;
+  color: var(--tertiary)!important;
   position: absolute;
   right: 20px;
-  top: 10px;
+  top: 7px;
+  background-color: rgb(255, 255, 255)!important;
+  border: var(--border);
+  border-style:ridge;
 }
+
+.highscores:hover {
+  font-size: 30px !important;
+  font-family: 'VT323', monospace;
+  color: var(--tertiary) !important;
+  position: absolute;
+  right: 20px;
+  top: 7px;
+  background-color: rgb(233, 233, 233) !important;
+  border: var(--border);
+  border-style: ridge;
+}
+
+.custom-modal-header{
+  background-color: var(--modelBg)!important;
+  border: var(--border);
+  
+}
+
+.h4 {
+  font-size: 2em !important;
+}
+
+.custom-modal-body {
+  background-color: var(--modelBg) !important;
+  border: var(--border);
+  max-height: 300px!important;
+  min-height: 270px!important;
+
+}
+.custom-modal-footer {
+  background-color: var(--modelBg) !important;
+  border: var(--border);
+}
+
+.modal-btn{
+  background-color: var(--primary);
+  border: var(--border);
+  font-size: 1.2em!important;
+}
+.modal-btn:hover {
+  background-color: var(--hover);
+  border: var(--border);
+  font-size: 1.2em !important;
+}
+
