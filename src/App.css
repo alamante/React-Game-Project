@@ -9,6 +9,7 @@
   --modelBg: #F4F4F4;
   --border: 2px solid #250349;
 }
+
 .logo-btn {
   width: 140px;
   border: none;
@@ -26,19 +27,20 @@
 
 body {
   font-family: 'VT323',
-      monospace!important;
-  background-color: var(--bg)!important;
+    monospace !important;
+  background-color: var(--bg) !important;
 }
-.highscores{
+
+.highscores {
   font-size: 30px !important;
   font-family: 'VT323', monospace;
-  color: var(--tertiary)!important;
+  color: var(--tertiary) !important;
   position: absolute;
   right: 20px;
   top: 7px;
-  background-color: rgb(255, 255, 255)!important;
+  background-color: rgb(255, 255, 255) !important;
   border: var(--border);
-  border-style:ridge;
+  border-style: ridge;
 }
 
 .highscores:hover {
@@ -53,10 +55,10 @@ body {
   border-style: ridge;
 }
 
-.custom-modal-header{
-  background-color: var(--modelBg)!important;
+.custom-modal-header {
+  background-color: var(--modelBg) !important;
   border: var(--border);
-  
+
 }
 
 .h4 {
@@ -66,23 +68,90 @@ body {
 .custom-modal-body {
   background-color: var(--modelBg) !important;
   border: var(--border);
-  max-height: 300px!important;
-  min-height: 270px!important;
+  max-height: 300px !important;
+  min-height: 270px !important;
 
 }
+
 .custom-modal-footer {
   background-color: var(--modelBg) !important;
   border: var(--border);
 }
 
-.modal-btn{
+.custom-btn {
   background-color: var(--primary);
   border: var(--border);
-  font-size: 1.2em!important;
+  font-size: 1.2em !important;
 }
+
 .modal-btn:hover {
   background-color: var(--hover);
   border: var(--border);
   font-size: 1.2em !important;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome {
+  padding: 20px;
+  margin-top: 35px;
+}
+
+.enter-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.enter-img {
+  height: 60px;
+}
+
+.enter-img:hover {
+  height: 55px;
+}
+
+/* Use this class for all the page H1 to make them all the same for each component*/
+.header {
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+  font-size: 7rem;
+
+}
+
+.choices {
+  position: fixed;
+  bottom: 70px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.choice-btn {
+  margin: 0 20px;
+  padding: 0 15px 0 15px;
+  height: 70px;
+  font-size: 4vw !important;
+  color: var(--modelBg);
+}
+
+.choice-btn:hover {
+  margin: 0 20px;
+  padding: 0 15px 0 15px;
+  height: 70px;
+  font-size: 4vw !important;
+  color: var(--modelBg);
+  background-color: var(--hover) !important;
+}
