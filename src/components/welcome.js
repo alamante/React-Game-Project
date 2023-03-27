@@ -22,7 +22,7 @@ export default function SimpleContainer() {
         )}
         {showChoices ? (
           <>
-            <h1 className="choose">CHOOSE YOUR GAME</h1>
+            <h1 className="Header">CHOOSE YOUR GAME</h1>
             <div className='choices'>
               <button className='custom-btn choice-btn'>MAGIC 8 BALL</button>
               <button className='custom-btn choice-btn'>ROCK PAPER SCISSORS</button>

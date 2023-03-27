@@ -26,16 +26,16 @@
 }
 
 body {
-  font-family: 'VT323',
- feature/main-screen
-      monospace!important;
+  font-family: 'VT323', monospace!important;
   background-color: var(--bg)!important;
-
-    monospace !important;
-  background-color: var(--bg) !important;
 }
 
 .highscores {
+
+  font-size: 30px !important;
+  font-family: 'VT323', monospace;
+  color: var(--tertiary) !important;
+
   font-size: 30px !important;
   font-family: 'VT323', monospace;
   color: var(--tertiary) !important;
@@ -45,20 +45,19 @@ body {
   background-color: rgb(255, 255, 255) !important;
   border: var(--border);
   border-style: ridge;
- main
+ 
 }
 
 .highscores:hover {
   font-size: 30px !important;
   font-family: 'VT323', monospace;
- feature/main-screen
   color: var(--tertiary)!important;
   position: absolute;
   right: 20px;
   top: 7px;
-  background-color: rgb(255, 255, 255)!important;
+  background-color: rgb(255, 255, 255) !important;
   border: var(--border);
-  border-style:ridge;
+  border-style: ridge;
 }
 
 .highscores:hover {
@@ -79,7 +78,12 @@ body {
   border-style: ridge;
 }
 
- feature/main-screen
+
+.custom-modal-header {
+  background-color: var(--modelBg) !important;
+  border: var(--border);
+
+
 .custom-modal-header{
   background-color: var(--modelBg)!important;
   border: var(--border);
@@ -89,7 +93,6 @@ body {
   background-color: var(--modelBg) !important;
   border: var(--border);
 
- main
 }
 
 .h4 {
@@ -99,29 +102,26 @@ body {
 .custom-modal-body {
   background-color: var(--modelBg) !important;
   border: var(--border);
- feature/main-screen
-  max-height: 300px!important;
-  min-height: 270px!important;
-
-}
 
   max-height: 300px !important;
   min-height: 270px !important;
 
 }
 
- main
+
 .custom-modal-footer {
   background-color: var(--modelBg) !important;
   border: var(--border);
 }
 
- feature/main-screen
+
+
 .custom-btn{
   background-color: var(--primary);
   border: var(--border);
-  font-size: 1.2em!important;
+  font-size: 1.2em !important;
 }
+
 
 .modal-btn {
   background-color: var(--primary);
@@ -129,7 +129,7 @@ body {
   font-size: 1.2em !important;
 }
 
- main
+
 .modal-btn:hover {
   background-color: var(--hover);
   border: var(--border);
@@ -143,6 +143,15 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .welcome{
   padding: 20px;
@@ -160,9 +169,35 @@ body {
 .enter-img {
   height: 60px;
 }
+
+
+
 .enter-img:hover {
   height: 55px;
 }
+
+
+/* Use this class for all the page H1 to make them all the same for each component*/
+.header {
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+  font-size: 7rem;
+
+}
+
+.choices {
+  position: fixed;
+  bottom: 70px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+}
+
 
 .choose{
   margin-top: 50px;
@@ -190,13 +225,23 @@ body {
     color: var(--modelBg);
 }
 .choice-btn:hover {
+
   margin: 0 20px;
   padding: 0 15px 0 15px;
   height: 70px;
   font-size: 4vw !important;
   color: var(--modelBg);
-  background-color: var(--hover)!important;
-}
 
 }
- main
+
+.choice-btn:hover {
+  margin: 0 20px;
+  padding: 0 15px 0 15px;
+  height: 70px;
+  font-size: 4vw !important;
+  color: var(--modelBg);
+  background-color: var(--hover) !important;
+}
+
+
+
