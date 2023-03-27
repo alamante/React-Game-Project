@@ -68,8 +68,8 @@ body {
 .custom-modal-body {
   background-color: var(--modelBg) !important;
   border: var(--border);
-  max-height: 300px !important;
-  min-height: 270px !important;
+  max-height: 380px !important;
+  min-height: 350px !important;
 
 }
 
