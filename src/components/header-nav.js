@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Navbar from 'react-bootstrap/Navbar';
 import Modal from 'react-bootstrap/Modal';
 import BasicTable from "./highscore-data";
+import '../App.css';
 
 function Header() {
   const [showModal, setShowModal] = useState(false);
@@ -10,7 +11,11 @@ function Header() {
   const handleModal = () => setShowModal(!showModal);
   const handleClear = () => {
     {/* we will add the rules here to clear the highscores */}
-  };
+  }
+
+   const handleLogoClick = () => {
+    window.location.reload();
+  }
 
   return (
     <div>
@@ -20,7 +25,7 @@ function Header() {
             width="150"
             height="40"
             className="d-inline-block align-top"
-            alt="React Bootstrap logo"
+            alt="React Bootstrap logo" onClick={handleLogoClick}
           />
         </Navbar.Brand>
         <button className="highscores" onClick={handleModal}>HIGHSCORES</button>
