@@ -10,6 +10,8 @@
   --border: 2px solid #250349;
 }
 
+
+
 .logo-btn {
   width: 140px;
   border: none;
@@ -27,11 +29,8 @@
 
 body {
   font-family: 'VT323',
- feature/main-screen
       monospace!important;
   background-color: var(--bg)!important;
-
-    monospace !important;
   background-color: var(--bg) !important;
 }
 
@@ -45,13 +44,13 @@ body {
   background-color: rgb(255, 255, 255) !important;
   border: var(--border);
   border-style: ridge;
- main
+
 }
 
 .highscores:hover {
   font-size: 30px !important;
   font-family: 'VT323', monospace;
- feature/main-screen
+
   color: var(--tertiary)!important;
   position: absolute;
   right: 20px;
@@ -79,17 +78,16 @@ body {
   border-style: ridge;
 }
 
- feature/main-screen
+
 .custom-modal-header{
   background-color: var(--modelBg)!important;
   border: var(--border);
-  
+}
 
 .custom-modal-header {
   background-color: var(--modelBg) !important;
   border: var(--border);
 
- main
 }
 
 .h4 {
@@ -99,24 +97,18 @@ body {
 .custom-modal-body {
   background-color: var(--modelBg) !important;
   border: var(--border);
- feature/main-screen
   max-height: 300px!important;
   min-height: 270px!important;
 
 }
 
-  max-height: 300px !important;
-  min-height: 270px !important;
 
-}
-
- main
 .custom-modal-footer {
   background-color: var(--modelBg) !important;
   border: var(--border);
 }
 
- feature/main-screen
+
 .custom-btn{
   background-color: var(--primary);
   border: var(--border);
@@ -129,12 +121,12 @@ body {
   font-size: 1.2em !important;
 }
 
- main
+
 .modal-btn:hover {
   background-color: var(--hover);
   border: var(--border);
   font-size: 1.2em !important;
- feature/main-screen
+ 
 }
 
 .container {
@@ -198,5 +190,5 @@ body {
   background-color: var(--hover)!important;
 }
 
-}
- main
+
+
