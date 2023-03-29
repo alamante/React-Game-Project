@@ -27,6 +27,7 @@ function Header(props) {
       />
     </a>
   </Navbar.Brand>
+
   <button className="highscores" onClick={handleModal}>HIGHSCORES</button>
 </Navbar>
 
