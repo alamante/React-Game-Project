@@ -1,20 +1,14 @@
-import React from 'react';
-import './App.css';
-import SimpleContainer from './components/welcome';
-import Header from './components/header-nav';
-import Hangman from "./components/Hangman"
-import Time from './components/Time';
+import "./App.css";
+import Header from "./components/header-nav";
+import SimpleContainer from "./components/welcome";
 
 
 function App() {
-  return (
-    <div className="App">
-      <Header/>
-      <Time />
-     <Hangman />
-     
-    </div>
-  );
+ return (
+  <div className='App'>
+   <Header/>
+   <SimpleContainer/>
+  </div>
+ );
 }
-
 export default App;

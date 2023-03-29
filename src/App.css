@@ -1,194 +1,163 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-
 :root {
-  --bg: #F0BAE2;
-  --primary: #F5B606;
-  --hover: #e0a604;
-  --tertiary: #250349;
-  --clickedBtn: #AD914B;
-  --modelBg: #F4F4F4;
-  --border: 2px solid #250349;
+ --bg: #F0BAE2;
+ --primary: #F5B606;
+ --hover: #E0A604;
+ --tertiary: #250349;
+ --clickedBtn: #AD914B;
+ --modelBg: #F4F4F4;
+ --border: 2px solid #250349;
 }
-
-
-
 .logo-btn {
-  width: 140px;
-  border: none;
-  background-color: rgba(255, 255, 255, 0);
+ width: 140px;
+ border: none;
+ background-color: rgba(255, 255, 255, 0);
 }
-
 .logo {
-  border: none;
+ border: none;
 }
-
 .custom-nav {
-  background-color: var(--primary);
-  border-bottom: 2px solid #250349;
+ background-color: var(--primary);
+ border-bottom: 2px solid #250349;
 }
-
 body {
-  font-family: 'VT323',
-      monospace!important;
-  background-color: var(--bg)!important;
-  background-color: var(--bg) !important;
+ font-family: 'VT323',
+  monospace !important;
+ background-color: var(--bg) !important;
 }
-
 .highscores {
-  font-size: 30px !important;
-  font-family: 'VT323', monospace;
-  color: var(--tertiary) !important;
-  position: absolute;
-  right: 20px;
-  top: 7px;
-  background-color: rgb(255, 255, 255) !important;
-  border: var(--border);
-  border-style: ridge;
-
+ font-size: 30px !important;
+ font-family: 'VT323', monospace;
+ color: var(--tertiary) !important;
+ position: absolute;
+ right: 20px;
+ top: 7px;
+ background-color: rgb(255, 255, 255) !important;
+ border: var(--border);
+ border-style: ridge;
 }
-
 .highscores:hover {
-  font-size: 30px !important;
-  font-family: 'VT323', monospace;
-
-  color: var(--tertiary)!important;
-  position: absolute;
-  right: 20px;
-  top: 7px;
-  background-color: rgb(255, 255, 255)!important;
-  border: var(--border);
-  border-style:ridge;
+ font-size: 30px !important;
+ font-family: 'VT323', monospace;
+ color: var(--tertiary) !important;
+ position: absolute;
+ right: 20px;
+ top: 7px;
+ background-color: rgb(233, 233, 233) !important;
+ border: var(--border);
+ border-style: ridge;
 }
-
-.highscores:hover {
-  font-size: 30px !important;
-  font-family: 'VT323', monospace;
-  color: var(--tertiary) !important;
-  position: absolute;
-  right: 20px;
-  top: 7px;
-
-  color: var(--tertiary) !important;
-  position: absolute;
-  right: 20px;
-  top: 7px;
-
-  background-color: rgb(233, 233, 233) !important;
-  border: var(--border);
-  border-style: ridge;
-}
-
-
-.custom-modal-header{
-  background-color: var(--modelBg)!important;
-  border: var(--border);
-}
-
 .custom-modal-header {
-  background-color: var(--modelBg) !important;
-  border: var(--border);
-
+ background-color: var(--modelBg) !important;
+ border: var(--border);
 }
-
 .h4 {
-  font-size: 2em !important;
+ font-size: 2em !important;
 }
-
 .custom-modal-body {
-  background-color: var(--modelBg) !important;
-  border: var(--border);
-  max-height: 300px!important;
-  min-height: 270px!important;
-
+ background-color: var(--modelBg) !important;
+ border: var(--border);
+ max-height: 380px !important;
+ min-height: 350px !important;
 }
-
-
 .custom-modal-footer {
-  background-color: var(--modelBg) !important;
-  border: var(--border);
+ background-color: var(--modelBg) !important;
+ border: var(--border);
 }
-
-
-.custom-btn{
-  background-color: var(--primary);
-  border: var(--border);
-  font-size: 1.2em!important;
+.custom-btn {
+ background-color: var(--primary);
+ border: var(--border);
+ font-size: 1.2em !important;
 }
-
-.modal-btn {
-  background-color: var(--primary);
-  border: var(--border);
-  font-size: 1.2em !important;
-}
-
-
 .modal-btn:hover {
-  background-color: var(--hover);
-  border: var(--border);
-  font-size: 1.2em !important;
- 
+ background-color: var(--hover);
+ border: var(--border);
+ font-size: 1.2em !important;
 }
-
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
 }
-
-.welcome{
-  padding: 20px;
-  margin-top: 35px;
+.welcome {
+ padding: 20px;
+ margin-top: 35px;
 }
-
 .enter-btn {
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-  display: block;
-  margin: 0 auto;
+ border: none;
+ background-color: transparent;
+ cursor: pointer;
+ display: block;
+ margin: 0 auto;
 }
-
 .enter-img {
-  height: 60px;
+ height: 60px;
 }
 .enter-img:hover {
-  height: 55px;
+ height: 55px;
 }
-
-.choose{
-  margin-top: 50px;
-  position: relative;
-  text-align: center;
-   font-size: 7rem;
-   
+.header {
+ display: block;
+ margin-top: 50px;
+ text-align: center;
+ font-size: 7rem;
 }
-.choices{
-  position: fixed;
-    bottom: 70px;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-
+.choices {
+ position: fixed;
+ bottom: 70px;
+ left: 0;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
 }
-.choice-btn{
-    margin: 0 20px;
-    padding: 0 15px 0 15px;
-    height: 70px;
-    font-size: 4vw!important;
-    color: var(--modelBg);
+.choice-btn {
+ margin: 0 20px;
+ padding: 0 15px 0 15px;
+ height: 70px;
+ font-size: 4vw !important;
+ color: var(--modelBg);
 }
 .choice-btn:hover {
-  margin: 0 20px;
-  padding: 0 15px 0 15px;
-  height: 70px;
-  font-size: 4vw !important;
-  color: var(--modelBg);
-  background-color: var(--hover)!important;
+ margin: 0 20px;
+ padding: 0 15px 0 15px;
+ height: 70px;
+ font-size: 4vw !important;
+ color: var(--modelBg);
+ background-color: var(--hover) !important;
 }
-
-
-
+.center{
+ text-align: center;
+}
+.weapons{
+ height: 140px;
+ width:180px;
+ background-color: #f4f4f400;
+ border: 0px;
+}
+.weapon-choices{
+ height:inherit;
+ width:inherit;
+}
+.prompt{
+ padding: 0px;
+ font-size: 40px;
+}
+.game-choices{
+padding-bottom: 10px;
+}
+.result{
+ padding-top: 20px;
+ font-size: 60px;
+}
+.footer {
+ position: fixed;
+ top: 80px;
+ left: 20px;
+}
+.footer-btn {
+ background-color: var(--primary) !important;
+ font-family: inherit !important;
+}
