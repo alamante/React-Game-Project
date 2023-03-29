@@ -182,3 +182,14 @@ padding-bottom: 10px;
   padding-top: 20px;
   font-size: 60px;
 }
+
+.footer{
+  position: fixed;
+  top: 80px;
+  left: 20px;
+
+}
+.footer-btn{
+  background-color: var(--primary)!important;
+  font-family: inherit!important;
+}
