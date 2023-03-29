@@ -1,3 +1,6 @@
+/*<<<<<<< eightball*/
+
+/*<<<<<<< feature/footer*/
 import { useState, useEffect } from "react"
 import Scissors from "../Design-Materials/icons-etc/SVG/Scissors-icon-description.svg"
 import Paper from "../Design-Materials/icons-etc/SVG/Paper-icon-description.svg"
@@ -65,3 +68,19 @@ const RockPaperScissors = () => {
 }
 
 export default RockPaperScissors
+
+/*>>>>>>> main*/
+import './App.css';
+import Header from './components/header-nav';
+
+function RPS() {
+  return (
+      <h1 className="header"> ROCk PAPER SCISSORS</h1>
+    
+  );
+}
+
+export default RPS;
+/*<<<<<<< eightball*/
+
+
