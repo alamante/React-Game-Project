@@ -25,7 +25,14 @@
   border-bottom: 2px solid #250349;
 }
 
+/*<<<<<<< feature/footer*/
 body {
+  font-family: 'VT323',
+    monospace !important;
+  background-color: var(--bg) !important;
+}
+
+.highscores {
   font-family: 'VT323', monospace!important;
   background-color: var(--bg)!important;
 }
@@ -47,11 +54,11 @@ body {
   border-style: ridge;
  
 }
-
+/*>>>>>>> main*/
 .highscores:hover {
   font-size: 30px !important;
   font-family: 'VT323', monospace;
-  color: var(--tertiary)!important;
+  color: var(--tertiary) !important;
   position: absolute;
   right: 20px;
   top: 7px;
@@ -78,6 +85,11 @@ body {
   border-style: ridge;
 }
 
+/*<<<<<<< feature/footer*/
+.custom-modal-header {
+  background-color: var(--modelBg) !important;
+  border: var(--border);
+
 
 .custom-modal-header {
   background-color: var(--modelBg) !important;
@@ -93,6 +105,7 @@ body {
   background-color: var(--modelBg) !important;
   border: var(--border);
 
+
 }
 
 .h4 {
@@ -102,6 +115,12 @@ body {
 .custom-modal-body {
   background-color: var(--modelBg) !important;
   border: var(--border);
+/*<<<<<<< feature/footer*/
+  max-height: 380px !important;
+  min-height: 350px !important;
+
+}
+
 
   max-height: 300px !important;
   min-height: 270px !important;
@@ -109,18 +128,20 @@ body {
 }
 
 
+/*>>>>>>> main*/
 .custom-modal-footer {
   background-color: var(--modelBg) !important;
   border: var(--border);
 }
 
-
-
+/*<<<<<<< feature/footer*/
 .custom-btn{
   background-color: var(--primary);
   border: var(--border);
   font-size: 1.2em !important;
 }
+
+/*<<<<<<< feature/footer*/
 
 
 .modal-btn {
@@ -130,6 +151,7 @@ body {
 }
 
 
+/*>>>>>>> main*/
 .modal-btn:hover {
   background-color: var(--hover);
   border: var(--border);
@@ -245,3 +267,106 @@ body {
 
 
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome {
+  padding: 20px;
+  margin-top: 35px;
+}
+
+.enter-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.enter-img {
+  height: 60px;
+}
+
+.enter-img:hover {
+  height: 55px;
+}
+
+.header {
+  display: block;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 7rem;
+
+}
+
+.choices {
+  position: fixed;
+  bottom: 70px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.choice-btn {
+  margin: 0 20px;
+  padding: 0 15px 0 15px;
+  height: 70px;
+  font-size: 4vw !important;
+  color: var(--modelBg);
+}
+
+.choice-btn:hover {
+  margin: 0 20px;
+  padding: 0 15px 0 15px;
+  height: 70px;
+  font-size: 4vw !important;
+  color: var(--modelBg);
+  background-color: var(--hover) !important;
+}
+
+.center{
+  text-align: center;
+}
+
+.weapons{
+  height: 140px;
+  width:180px;
+  background-color: #f4f4f400;
+  border: 0px;
+  
+}
+.weapon-choices{
+  height:inherit;
+  width:inherit;
+}
+.prompt{
+  padding: 0px;
+  font-size: 40px;
+}
+
+.game-choices{
+padding-bottom: 10px;
+}
+.result{
+  padding-top: 20px;
+  font-size: 60px;
+}
+
+.footer{
+  position: fixed;
+  top: 80px;
+  left: 20px;
+
+}
+.footer-btn{
+  background-color: var(--primary)!important;
+  font-family: inherit!important;
+}
