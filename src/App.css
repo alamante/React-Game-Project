@@ -118,9 +118,9 @@ body {
   height: 55px;
 }
 
-.choose {
+.header {
+  display: block;
   margin-top: 50px;
-  position: relative;
   text-align: center;
   font-size: 7rem;
 
@@ -153,4 +153,32 @@ body {
   font-size: 4vw !important;
   color: var(--modelBg);
   background-color: var(--hover) !important;
+}
+
+.center{
+  text-align: center;
+}
+
+.weapons{
+  height: 140px;
+  width:180px;
+  background-color: #f4f4f400;
+  border: 0px;
+  
+}
+.weapon-choices{
+  height:inherit;
+  width:inherit;
+}
+.prompt{
+  padding: 0px;
+  font-size: 40px;
+}
+
+.game-choices{
+padding-bottom: 10px;
+}
+.result{
+  padding-top: 20px;
+  font-size: 60px;
 }
