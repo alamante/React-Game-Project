@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 export default function Footer({ handleReset }) {
   return (
     <footer className="footer">
-      <Button variant="contained" color="primary" onClick={handleReset}>
+      <Button variant="contained" className='footer-btn' onClick={handleReset}>
         Main Menu
       </Button>
     </footer>
