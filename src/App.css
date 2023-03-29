@@ -27,6 +27,12 @@
 
 /*<<<<<<< feature/footer*/
 body {
+  font-family: 'VT323', monospace!important;
+  background-color: var(--bg)!important;
+}
+
+.highscores {
+
   font-family: 'VT323',
     monospace !important;
   background-color: var(--bg) !important;
@@ -42,7 +48,6 @@ body {
   font-size: 30px !important;
   font-family: 'VT323', monospace;
   color: var(--tertiary) !important;
-
   font-size: 30px !important;
   font-family: 'VT323', monospace;
   color: var(--tertiary) !important;
@@ -54,10 +59,12 @@ body {
   border-style: ridge;
  
 }
+
 /*>>>>>>> main*/
 .highscores:hover {
   font-size: 30px !important;
   font-family: 'VT323', monospace;
+  color: var(--tertiary)!important;
   color: var(--tertiary) !important;
   position: absolute;
   right: 20px;
@@ -74,27 +81,30 @@ body {
   position: absolute;
   right: 20px;
   top: 7px;
-
   color: var(--tertiary) !important;
   position: absolute;
   right: 20px;
   top: 7px;
-
   background-color: rgb(233, 233, 233) !important;
   border: var(--border);
   border-style: ridge;
 }
 
-/*<<<<<<< feature/footer*/
-.custom-modal-header {
-  background-color: var(--modelBg) !important;
-  border: var(--border);
+/* eightball*/
 
+/* feature/footer*/
 
 .custom-modal-header {
   background-color: var(--modelBg) !important;
   border: var(--border);
+}
 
+/*main*/
+
+.custom-modal-header {
+  background-color: var(--modelBg) !important;
+  border: var(--border);
+}
 
 .custom-modal-header{
   background-color: var(--modelBg)!important;
@@ -104,8 +114,6 @@ body {
 .custom-modal-header {
   background-color: var(--modelBg) !important;
   border: var(--border);
-
-
 }
 
 .h4 {
@@ -115,31 +123,34 @@ body {
 .custom-modal-body {
   background-color: var(--modelBg) !important;
   border: var(--border);
-/*<<<<<<< feature/footer*/
   max-height: 380px !important;
   min-height: 350px !important;
-
 }
 
 
-  max-height: 300px !important;
-  min-height: 270px !important;
 
-}
 
+/*eightball*/
 
 /*>>>>>>> main*/
+
 .custom-modal-footer {
   background-color: var(--modelBg) !important;
   border: var(--border);
 }
 
+/*<<<<<<< eightball8/
+
+
 /*<<<<<<< feature/footer*/
+
 .custom-btn{
   background-color: var(--primary);
   border: var(--border);
   font-size: 1.2em !important;
 }
+
+/*<<<<<<< eightball*/
 
 /*<<<<<<< feature/footer*/
 
@@ -151,7 +162,10 @@ body {
 }
 
 
+/*<<<<<<< eightball*/
+
 /*>>>>>>> main*/
+
 .modal-btn:hover {
   background-color: var(--hover);
   border: var(--border);
@@ -247,7 +261,6 @@ body {
     color: var(--modelBg);
 }
 .choice-btn:hover {
-
   margin: 0 20px;
   padding: 0 15px 0 15px;
   height: 70px;
@@ -262,10 +275,10 @@ body {
   height: 70px;
   font-size: 4vw !important;
   color: var(--modelBg);
-  background-color: var(--hover) !important;
-}
-
-
+  }
+  
+  
+/*eightball*/
 
 .container {
   display: flex;
@@ -312,7 +325,6 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
-
 }
 
 .choice-btn {
@@ -323,6 +335,7 @@ body {
   color: var(--modelBg);
 }
 
+/*main*/
 .choice-btn:hover {
   margin: 0 20px;
   padding: 0 15px 0 15px;
@@ -331,6 +344,8 @@ body {
   color: var(--modelBg);
   background-color: var(--hover) !important;
 }
+
+
 
 .center{
   text-align: center;
@@ -343,18 +358,24 @@ body {
   border: 0px;
   
 }
+
 .weapon-choices{
   height:inherit;
   width:inherit;
 }
+
+
 .prompt{
   padding: 0px;
   font-size: 40px;
 }
 
+
+
 .game-choices{
 padding-bottom: 10px;
 }
+
 .result{
   padding-top: 20px;
   font-size: 60px;
@@ -366,7 +387,9 @@ padding-bottom: 10px;
   left: 20px;
 
 }
+
 .footer-btn{
   background-color: var(--primary)!important;
   font-family: inherit!important;
 }
+

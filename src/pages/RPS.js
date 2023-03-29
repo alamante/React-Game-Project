@@ -1,3 +1,5 @@
+/*<<<<<<< eightball*/
+
 /*<<<<<<< feature/footer*/
 import { useState, useEffect } from "react"
 import Scissors from "../Design-Materials/icons-etc/SVG/Scissors-icon-description.svg"
@@ -67,6 +69,7 @@ const RockPaperScissors = () => {
 
 export default RockPaperScissors
 
+/*>>>>>>> main*/
 import './App.css';
 import Header from './components/header-nav';
 
@@ -78,4 +81,6 @@ function RPS() {
 }
 
 export default RPS;
-/*>>>>>>> main*/
+/*<<<<<<< eightball*/
+
+
