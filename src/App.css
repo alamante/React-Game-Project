@@ -25,20 +25,41 @@
   border-bottom: 2px solid #250349;
 }
 
+/*<<<<<<< feature/footer*/
 body {
+<<<<<<< HEAD
   font-family: 'VT323',
 <<<<<<< HEAD
  feature/main-screen
       monospace!important;
+=======
+  font-family: 'VT323', monospace!important;
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
   background-color: var(--bg)!important;
+}
 
+<<<<<<< HEAD
 =======
 >>>>>>> e3f492cf808416def6ddde000e6d70b1d305fa23
+=======
+.highscores {
+
+  font-family: 'VT323',
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
     monospace !important;
   background-color: var(--bg) !important;
 }
 
 .highscores {
+  font-family: 'VT323', monospace!important;
+  background-color: var(--bg)!important;
+}
+
+.highscores {
+
+  font-size: 30px !important;
+  font-family: 'VT323', monospace;
+  color: var(--tertiary) !important;
   font-size: 30px !important;
   font-family: 'VT323', monospace;
   color: var(--tertiary) !important;
@@ -49,16 +70,20 @@ body {
   background-color: rgb(255, 255, 255) !important;
   border: var(--border);
   border-style: ridge;
- main
+ 
 }
 
+/*>>>>>>> main*/
 .highscores:hover {
   font-size: 30px !important;
   font-family: 'VT323', monospace;
- feature/main-screen
   color: var(--tertiary)!important;
+<<<<<<< HEAD
 =======
 >>>>>>> e3f492cf808416def6ddde000e6d70b1d305fa23
+=======
+  color: var(--tertiary) !important;
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
   position: absolute;
   right: 20px;
   top: 7px;
@@ -74,19 +99,36 @@ body {
   position: absolute;
   right: 20px;
   top: 7px;
-
   color: var(--tertiary) !important;
   position: absolute;
   right: 20px;
   top: 7px;
-
   background-color: rgb(233, 233, 233) !important;
   border: var(--border);
   border-style: ridge;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
  feature/main-screen
+=======
+/* eightball*/
+
+/* feature/footer*/
+
+.custom-modal-header {
+  background-color: var(--modelBg) !important;
+  border: var(--border);
+}
+
+/*main*/
+
+.custom-modal-header {
+  background-color: var(--modelBg) !important;
+  border: var(--border);
+}
+
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
 .custom-modal-header{
   background-color: var(--modelBg)!important;
   border: var(--border);
@@ -95,6 +137,7 @@ body {
 .custom-modal-header {
   background-color: var(--modelBg) !important;
   border: var(--border);
+<<<<<<< HEAD
 
  main
 =======
@@ -103,6 +146,8 @@ body {
   border: var(--border);
 
 >>>>>>> e3f492cf808416def6ddde000e6d70b1d305fa23
+=======
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
 }
 
 .h4 {
@@ -113,17 +158,20 @@ body {
   background-color: var(--modelBg) !important;
   border: var(--border);
 <<<<<<< HEAD
+<<<<<<< HEAD
  feature/main-screen
   max-height: 300px!important;
   min-height: 270px!important;
 
+=======
+  max-height: 380px !important;
+  min-height: 350px !important;
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
 }
 
-  max-height: 300px !important;
-  min-height: 270px !important;
 
-}
 
+<<<<<<< HEAD
  main
 =======
   max-height: 380px !important;
@@ -132,22 +180,50 @@ body {
 }
 
 >>>>>>> e3f492cf808416def6ddde000e6d70b1d305fa23
+=======
+
+/*eightball*/
+
+/*>>>>>>> main*/
+
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
 .custom-modal-footer {
   background-color: var(--modelBg) !important;
   border: var(--border);
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
  feature/main-screen
 .custom-btn{
 =======
 .custom-btn {
 >>>>>>> e3f492cf808416def6ddde000e6d70b1d305fa23
+=======
+/*<<<<<<< eightball8/
+
+
+/*<<<<<<< feature/footer*/
+
+.custom-btn{
   background-color: var(--primary);
   border: var(--border);
   font-size: 1.2em !important;
 }
 
+/*<<<<<<< eightball*/
+
+/*<<<<<<< feature/footer*/
+
+
+.modal-btn {
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
+  background-color: var(--primary);
+  border: var(--border);
+  font-size: 1.2em !important;
+}
+
+<<<<<<< HEAD
 <<<<<<< HEAD
 .modal-btn {
   background-color: var(--primary);
@@ -161,6 +237,13 @@ body {
 
 <<<<<<< HEAD
  main
+=======
+
+/*<<<<<<< eightball*/
+
+/*>>>>>>> main*/
+
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
 .modal-btn:hover {
   background-color: var(--hover);
   border: var(--border);
@@ -178,6 +261,18 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
 .welcome{
 =======
 .welcome {
@@ -198,14 +293,46 @@ body {
   height: 60px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> e3f492cf808416def6ddde000e6d70b1d305fa23
+=======
+
+
+
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
 .enter-img:hover {
   height: 55px;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+/* Use this class for all the page H1 to make them all the same for each component*/
+.header {
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+  font-size: 7rem;
+
+}
+
+.choices {
+  position: fixed;
+  bottom: 70px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+}
+
+
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
 .choose{
   margin-top: 50px;
   position: relative;
@@ -268,6 +395,7 @@ body {
   font-size: 4vw !important;
   color: var(--modelBg);
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: var(--hover)!important;
 }
 
@@ -277,6 +405,89 @@ body {
   background-color: var(--hover) !important;
 }
 
+=======
+
+}
+
+.choice-btn:hover {
+  margin: 0 20px;
+  padding: 0 15px 0 15px;
+  height: 70px;
+  font-size: 4vw !important;
+  color: var(--modelBg);
+  }
+  
+  
+/*eightball*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome {
+  padding: 20px;
+  margin-top: 35px;
+}
+
+.enter-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.enter-img {
+  height: 60px;
+}
+
+.enter-img:hover {
+  height: 55px;
+}
+
+.header {
+  display: block;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 7rem;
+
+}
+
+.choices {
+  position: fixed;
+  bottom: 70px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.choice-btn {
+  margin: 0 20px;
+  padding: 0 15px 0 15px;
+  height: 70px;
+  font-size: 4vw !important;
+  color: var(--modelBg);
+}
+
+/*main*/
+.choice-btn:hover {
+  margin: 0 20px;
+  padding: 0 15px 0 15px;
+  height: 70px;
+  font-size: 4vw !important;
+  color: var(--modelBg);
+  background-color: var(--hover) !important;
+}
+
+
+
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
 .center{
   text-align: center;
 }
@@ -288,18 +499,36 @@ body {
   border: 0px;
   
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
 .weapon-choices{
   height:inherit;
   width:inherit;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
 .prompt{
   padding: 0px;
   font-size: 40px;
 }
 
+<<<<<<< HEAD
 .game-choices{
 padding-bottom: 10px;
 }
+=======
+
+
+.game-choices{
+padding-bottom: 10px;
+}
+
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
 .result{
   padding-top: 20px;
   font-size: 60px;
@@ -311,8 +540,16 @@ padding-bottom: 10px;
   left: 20px;
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
 .footer-btn{
   background-color: var(--primary)!important;
   font-family: inherit!important;
 }
+<<<<<<< HEAD
 >>>>>>> e3f492cf808416def6ddde000e6d70b1d305fa23
+=======
+
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0

@@ -8,10 +8,17 @@ function App() {
     <div className="App">
       <Header/>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <SimpleContainer></SimpleContainer>
 =======
       <SimpleContainer/>
 >>>>>>> e3f492cf808416def6ddde000e6d70b1d305fa23
+=======
+/*<<<<<<< feature/footer*/
+      <SimpleContainer/>
+      <SimpleContainer></SimpleContainer>
+/*>>>>>>> main*/
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
     </div>
   );
 }

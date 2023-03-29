@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+/*<<<<<<< eightball*/
+
+/*<<<<<<< feature/footer*/
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
 import { useState, useEffect } from "react"
 import Scissors from "../Design-Materials/icons-etc/SVG/Scissors-icon-description.svg"
 import Paper from "../Design-Materials/icons-etc/SVG/Paper-icon-description.svg"
@@ -64,4 +70,24 @@ const RockPaperScissors = () => {
   )
 }
 
+<<<<<<< HEAD
 export default RockPaperScissors
+=======
+export default RockPaperScissors
+
+/*>>>>>>> main*/
+import './App.css';
+import Header from './components/header-nav';
+
+function RPS() {
+  return (
+      <h1 className="header"> ROCk PAPER SCISSORS</h1>
+    
+  );
+}
+
+export default RPS;
+/*<<<<<<< eightball*/
+
+
+>>>>>>> 85b4d85cba2209f3616e0a048dbfffd50e074cd0
