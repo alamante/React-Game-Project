@@ -26,7 +26,7 @@ This project was a great learning experience and we feel that after working toge
 
 ## Installation
 
-You do not have to install anything to be able to view our project, you can visit our netlify deployed wep page [here](TODO: LINK TO DEPLOYED SITE) and give our games a go!
+You do not have to install anything to be able to view our project, you can visit our netlify deployed wep page [here](https://main--lighthearted-toffee-42781e.netlify.app/ ) and give our games a go!
 
 You can also visit the [Github Repo](https://github.com/alamante/React-Game-Project) and have a look if you are interested
 
