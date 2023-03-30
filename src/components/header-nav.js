@@ -7,8 +7,7 @@ import '../App.css';
 function Header() {
  const [showModal, setShowModal] = useState(false);
  const handleModal = () => setShowModal(!showModal);
- const handleClear = () => {
-  {/* we will add the rules here to clear the highscores */}
+ 
  }
   const handleLogoClick = () => {
   window.location.reload();

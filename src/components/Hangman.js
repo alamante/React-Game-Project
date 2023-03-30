@@ -9,7 +9,6 @@ import image4 from "./images/4.jpg";
 import image5 from "./images/5.jpg";
 import image6 from "./images/6.jpg";
 import Scores from "./Scores";
-import Header from "./header-nav";
 
 
 class Hangman extends Component {
