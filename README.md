@@ -21,7 +21,7 @@ This project was a great learning experience and we feel that after working toge
 ## Table of Contents
 
 - [Installation](#installation)
-- [Image Display](#image Display)
+- [Image](#image)
 - [Credits](#credits)
 - [License](#license)
 
@@ -30,7 +30,7 @@ This project was a great learning experience and we feel that after working toge
 
 You do not have to install anything to be able to view our project, you can visit our netlify deployed wep page [here](https://main--lighthearted-toffee-42781e.netlify.app/ ) and give our games a go!
 
-## Image Display
+## Image
 ![PixelPlay](https://github.com/alamante/React-Game-Project/blob/main/public/PIXELPLAY.PNG)
 ![PixelPlay](https://github.com/alamante/React-Game-Project/blob/main/public/PIXELPLAY2.PNG
 
