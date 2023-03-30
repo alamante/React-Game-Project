@@ -11,8 +11,8 @@
   
   .Hangman img {
     border: 10px solid white;
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.27),
       0 0 40px rgba(0, 0, 0, 0.06) inset;
   }
@@ -32,7 +32,7 @@
   .Hangman-btns {
     text-align: center;
     display: inline-block;
-    width: 250px;
+    width: 350px;
     margin-top: 0;
   }
   .Hangman button {
@@ -44,14 +44,14 @@
     margin: 5px 2px 2px 2px;
     letter-spacing: 1px;
     outline: none;
-    background: #00bcd4;
+    background: #F5B606;
     color: #fff;
-    box-shadow: 0 6px rosybrown;
+    box-shadow: 0 3px #c3920a;
     padding-top: 4px;
   }
   
   .Hangman button:hover {
-    background-color: #0097a7;
+    background-color: #E0A604;
   }
   
   .Hangman button:disabled {
