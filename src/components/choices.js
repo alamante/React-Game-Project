@@ -13,7 +13,6 @@ export default function Choice({
     setShowGame(true);
   };
 
-
   return (
     <div>
       <h1 className="header">CHOOSE YOUR GAME</h1>
