@@ -2,27 +2,30 @@ import React, { useState } from "react";
 
 export default function Choice({
   handleGameClick,
-  setShowGame,
   handleHangmanClick,
+  handleMagicBallClick,
 }) {
   const [hasMadeSelection, setHasMadeSelection] = useState(false);
 
-  const handleChoiceClick = () => {
-    handleGameClick();
+  const handleChoiceClick = (type) => {
     setHasMadeSelection(true);
-    setShowGame(true);
+    handleGameClick(type);
   };
 
   return (
     <div>
       <h1 className="header">CHOOSE YOUR GAME</h1>
       <div className="choices">
-        <button className="custom-btn choice-btn" disabled={hasMadeSelection}>
+        <button
+          className="custom-btn choice-btn"
+          disabled={hasMadeSelection}
+          onClick={() => handleChoiceClick("magicball")}
+        >
           MAGIC 8 BALL
         </button>
         <button
           className="custom-btn choice-btn"
-          onClick={handleChoiceClick}
+          onClick={() => handleChoiceClick("rps")}
           disabled={hasMadeSelection}
         >
           ROCK PAPER SCISSORS

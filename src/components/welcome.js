@@ -5,21 +5,17 @@ import Container from "@mui/material/Container";
 import Choice from "./choices";
 import RockPaperScissors from "../pages/RPS";
 import Hangman from "./Hangman";
+import MagicBall from "./magic8ball";
 import Footer from "./footer";
 
 export default function SimpleContainer() {
   const [showGame, setShowGame] = useState(false);
   const [enterClicked, setEnterClicked] = useState(false);
-  const [hangmanClicked, setHangmanClicked] = useState(false);
+  const [gameType, setGameType] = useState("");
 
-  const handleGameClick = () => {
+  const handleGameClick = (type) => {
     setShowGame(true);
-    setHangmanClicked(false);
-  };
-
-  const handleHangmanClick = () => {
-    setShowGame(true);
-    setHangmanClicked(true);
+    setGameType(type);
   };
 
   const handleEnterClick = () => {
@@ -29,7 +25,7 @@ export default function SimpleContainer() {
   const handleReset = () => {
     setShowGame(false);
     setEnterClicked(false);
-    setHangmanClicked(false);
+    setGameType("");
   };
 
   return (
@@ -44,16 +40,18 @@ export default function SimpleContainer() {
       ) : (
         <>
           {showGame ? (
-            hangmanClicked ? (
+            gameType === "hangman" ? (
               <Hangman />
-            ) : (
+            ) : gameType === "rps" ? (
               <RockPaperScissors />
+            ) : (
+              <MagicBall />
             )
           ) : (
             <Choice
               handleGameClick={handleGameClick}
-              setShowGame={setShowGame}
-              handleHangmanClick={handleHangmanClick}
+              handleHangmanClick={() => handleGameClick("hangman")}
+              handleMagicBallClick={() => handleGameClick("magicball")}
             />
           )}
           <Footer handleReset={handleReset} />
