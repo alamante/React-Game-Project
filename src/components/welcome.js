@@ -23,7 +23,7 @@ export default function SimpleContainer() {
    {!enterClicked ? (
     <div className="show">
      <img className="welcome" src={WelcomeIcon} alt="Welcome" />
-     <button className="enter-btn” "onClick={handleEnterClick}>
+     <button className="enter-btn" onClick={handleEnterClick}>
       <img className="enter-img" src={EnterButtonIcon} alt="Enter" />
      </button>
     </div>
