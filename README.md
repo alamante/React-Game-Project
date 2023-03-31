@@ -1,70 +1,53 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# PIXELPLAY
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+PixelPlay is a collaborative project resulting in the creation of a ReactApp. It is a single page website with three games that we each worked on individually; the Hangman game which was created my Chinedu Igbokwe, the magic 8 ball game created by Chantal Sandal-Guiheen and the Rock Paper Scissors game as well as the design of the project was created by Chris Kennedy.
 
-### `npm start`
+We created this project because we wanted to create something fun, creative and challenging to build and the three of us loved these 3 classic games. It also gave us an oppurtunity to learn new coding techniques, libraries and packages as well as giving us the oppurtunity to do a group project for the first time and learn more about using Git and feauture branches.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To create this project we had some requirements we had to fulfill:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Use ReactJS
+- Use Node
+- use both Get and POST routes for retrieving and adding new data
+- Deploy using Netlify
+- use atleast 2 libraries, packages or technologies
+- Have a polished front end/UI
 
-### `npm test`
+This project was a great learning experience and we feel that after working together have all learned a great deal about working as a group to solve a problem, how to discuss ideas and help eachother and also how to professionally put together a presentation to display our work.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Table of Contents
 
-### `npm run build`
+- [Installation](#installation)
+- [Image](#image)
+- [Credits](#credits)
+- [License](#license)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You do not have to install anything to be able to view our project, you can visit our netlify deployed wep page [here](https://main--lighthearted-toffee-42781e.netlify.app/ ) and give our games a go!
 
-### `npm run eject`
+## Image
+![PixelPlay](https://github.com/alamante/React-Game-Project/blob/main/public/PIXELPLAY.PNG)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You can also visit the [Github Repo](https://github.com/alamante/React-Game-Project) and have a look if you are interested
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Credits
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[Chinedu Igbokwe](https://github.com/alamante)<br>
+[Chris Kennedy](https://github.com/chriskeno95)<br>
+[Chatal Sandal-Guiheen](https://github.com/Csandal17)<br><br>
+If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
-## Learn More
+If you followed tutorials, include links to those here as well.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+MIT Licence
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deployed Netlify  https://main--lighthearted-toffee-42781e.netlify.app/ <br>
+Demo - https://www.youtube.com/watch?v=qSq8ziJcp_E

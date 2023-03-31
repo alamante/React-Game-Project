@@ -7,9 +7,7 @@ import '../App.css';
 function Header() {
  const [showModal, setShowModal] = useState(false);
  const handleModal = () => setShowModal(!showModal);
- const handleClear = () => {
-  {/* we will add the rules here to clear the highscores */}
- }
+ 
   const handleLogoClick = () => {
   window.location.reload();
  }
@@ -35,7 +33,7 @@ function Header() {
      <BasicTable></BasicTable>
     </Modal.Body>
     <Modal.Footer className="custom-modal-footer">
-     <button className="modal-btn" onClick={handleClear}>CLEAR</button>
+     <button className="modal-btn">CLEAR</button>
      <button className="modal-btn" onClick={handleModal}>CLOSE</button>
     </Modal.Footer>
    </Modal>
