@@ -1,9 +1,13 @@
 import { ReactComponent as Logo } from "../Design-Materials/icons-etc/SVG/Logo.svg";
 import React, { useState } from "react";
+import Time from "./Time"
 import Navbar from 'react-bootstrap/Navbar';
 import Modal from 'react-bootstrap/Modal';
 import BasicTable from "./highscore-data";
 import '../App.css';
+import './Hangman.css'
+
+
 function Header() {
  const [showModal, setShowModal] = useState(false);
  const handleModal = () => setShowModal(!showModal);
@@ -22,6 +26,7 @@ function Header() {
       alt="React Bootstrap logo" onClick={handleLogoClick}
      />
     </Navbar.Brand>
+    <Time className="time"/>
     <button className="highscores" onClick={handleModal}>HIGHSCORES</button>
    </Navbar>
    <Modal show={showModal} backdrop='static' onHide={handleModal}>
