@@ -49,5 +49,5 @@ If you followed tutorials, include links to those here as well.
 
 MIT Licence
 
-Deployed Netlify  https://main--lighthearted-toffee-42781e.netlify.app/
+Deployed Netlify  https://main--lighthearted-toffee-42781e.netlify.app/ <br>
 Demo - https://www.youtube.com/watch?v=qSq8ziJcp_E
