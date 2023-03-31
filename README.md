@@ -40,7 +40,7 @@ You can also visit the [Github Repo](https://github.com/alamante/React-Game-Proj
 
 [Chinedu Igbokwe](https://github.com/alamante)
 [Chris Kennedy](https://github.com/chriskeno95)
-[Chatal Sandal-Guiheen](https://github.com/Csandal17)
+[Chatal Sandal-Guiheen](https://github.com/Csandal17)<br>
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
 If you followed tutorials, include links to those here as well.
