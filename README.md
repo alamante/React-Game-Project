@@ -32,7 +32,7 @@ You do not have to install anything to be able to view our project, you can visi
 
 ## Image
 ![PixelPlay](https://github.com/alamante/React-Game-Project/blob/main/public/PIXELPLAY.PNG)
-![PixelPlay](https://github.com/alamante/React-Game-Project/blob/main/public/PIXELPLAY2.PNG
+![PixelPlay](https://github.com/alamante/React-Game-Project/blob/main/public/PIXELPLAY2.PNG)
 
 You can also visit the [Github Repo](https://github.com/alamante/React-Game-Project) and have a look if you are interested
 
